@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+
+<script>
+    var x = parseFloat(prompt("Digite o valor da primeira variável"));
+    var y = parseFloat(prompt("Digite o valor da segunda variável variável"));
+    var operador = prompt("Escolha a operação: + , - , * , /");
+    var res = 0;
+    var resto = 0;
+
+    if (operador==="+")
+    {
+        res = (x+y);
+        document.write("O resultado da operação será "+x+" + "+y+" = "+res);
+    }
+    if (operador==="-")
+    {
+        res = (x-y);
+        document.write("O resultado da operação será "+x+" - "+y+" = "+res);
+    }
+    if (operador==="*")
+    {
+        res = (x*y);
+        document.write("O resultado da operação será "+x+" * "+y+" = "+res);
+    }
+    if (operador==="/")
+    {
+        res = (x/y);
+        resto = (x%y);
+        document.write("O resultado da operação será "+x+" / "+y+" = "+res+"<br> E o resto será "+resto);
+    }
+
+</script>
