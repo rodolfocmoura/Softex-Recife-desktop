@@ -1,0 +1,14 @@
+//Pesquise sobre padrões de projeto e escolha um para apresentar e descrever
+//seu funcionamento. Além disso, explique quais as vantagens e desvantagens
+//comparados a outros e mostre suas referências.
+
+Padrões de projeto tem como o intuito descrever objeetos e classes que se
+relacionam para que assim possamos resolver um problema genérico em um
+contexto particular.
+
+Como vantagem e xemplo temos que um desenvolvedor que precisar implementar
+em seu sistema um projeto que ja foi implementada antes, ele pode já
+conhecer as soluções possíveis ja testadas e validadas.
+
+Como desvantagem em sofwares, tempos que torna-se complicado saber como
+os algoritmos obtém ou recebem dados de suas classes de contexto.
