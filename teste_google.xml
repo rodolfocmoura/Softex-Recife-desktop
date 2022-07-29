@@ -1,0 +1,15 @@
+//podemos ver que a linha 4 especifica detalhes gráficos do elemento.
+
+<meta charset="UTF-8"></meta>
+<meta content="dark" name="color-scheme">
+<meta content="origin" name="referrer">
+<meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image">
+<link href="/manifest?pwa=webhp" crossorigin="use-credentials" rel="manifest">
+<title>Google</title>
+<script src="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.t9z7VPsEMFg.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo8oD_5FQW3kT3ksWwmXIWvhhqbKdw/cb=gapi.loaded_0" nonce="wZ5XzV447ikxcK2g1FyfXw" async=""></script>
+
+//já nesse segundo caso, na linha 14, o algoritmo está pegando um arquivo externo.
+
+<!-- KEYBIND -->
+<script src="/js/mousetrap.min.js"></script>
+<div id="adBanner" class="adLeaderboard adBanner leaderboard_ad" style="background-color: transparent; height: 10px; width: 10px; position: fixed; bottom: -100px; left: -100px;">&nbsp;</div>
