@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+
+<script>
+document.write("Iniciando contagem regressiva. <br>")
+var tempo = parseInt(prompt("Digite quantos segundos de contagem."));
+var funcao = setInterval(function(){
+  if(tempo === 0)
+  {
+    clearInterval(funcao);
+    document.write("BUM!");
+  } 
+  else 
+  {
+    document.write("<br>"+tempo + " segundos faltando<br>");
+  }
+  tempo = tempo - 1;
+}, 1000);
+</script>
