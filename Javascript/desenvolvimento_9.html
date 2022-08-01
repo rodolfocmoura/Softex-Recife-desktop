@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+<h1>Agência Bancária</h1>
+<h2>Clique nas opções</h2>
+<button onclick="mostrarSaldo()">Saldo</button>
+<button onclick="saque()">Sacar</button>
+<button onclick="deposito()">Depositar</button>
+<button onclick="numeroconta()">Numero da conta</button>
+<script>
+    function banco (conta, saldo, tipoconta, agencia){
+        this.conta = parseInt(prompt("Digite o número da conta:"));
+        this.saldo = parseInt(prompt("Digite o número da saldo:"));
+        this.tipoconta = (prompt("Digite o tipo de conta:"));
+        this.agencia = parseInt(prompt("Digite o número da agencia:"));
+        mostrarSaldo = function (){
+            alert("Saldo atual: "+this.saldo);
+        }
+        deposito = function (){
+            var depos = parseInt(prompt("Digite o valor a ser depositado: "));
+            this.saldo = this.saldo + depos;
+        }
+        saque = function (){
+            var sacado = parseInt(prompt("Digite o valor a ser depositado: "));
+            this.saldo = this.saldo - sacado;
+        }
+        numeroconta = function (){
+            alert("O número da conta é: "+this.conta);
+        }
+
+    }
+    banco();
+
+</script>
