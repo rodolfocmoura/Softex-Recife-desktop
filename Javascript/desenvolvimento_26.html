@@ -1,0 +1,40 @@
+<meta charset="utf-8">
+<script>
+
+class pessoa {
+    constructor (alturacm, peso, bairro){
+        this.alturacm = alturacm;
+        this.peso = peso;
+        this.bairro = bairro;
+    }
+    set altura(value){this.alturacm[ altura  ]=value;}
+    set quilos(value){this.peso[ quilos ]=value;}
+    set local(value){this.bairro[ local ]=string;}
+    get altura() {   return this.alturacm;}
+    get quilos() {   return this.peso;}
+    get local() {   return this.bairro;}
+}
+const x = [666, 777, 575];
+const caio = new pessoa(170,76,"Aflitos");
+
+function listaarray(){
+    document.write("Itens do array: ")
+    for (const e of x){
+        document.write(e);
+        document.write(" ")
+    }
+} 
+
+function listaobjeto (){
+    document.write("<br>");
+    document.write("Altura do usuário:"+caio.alturacm+"cm.<br>");
+    document.write("Peso do usuário: "+caio.peso+"kg.<br>");
+    document.write("Bairro do usuário: "+caio.bairro+"<br>");
+   
+}
+
+listaarray();
+listaobjeto();
+
+</script>
+
