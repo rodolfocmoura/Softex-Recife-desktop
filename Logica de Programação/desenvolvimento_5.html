@@ -1,0 +1,97 @@
+<meta charset="utf-8">
+
+<script>
+var x = "s";
+x = prompt("O transporte é terrestre?(s/n)");
+if (x==="s"){
+    x = prompt("Usa capacete?(s/n)");
+    if (x==="s"){
+        alert("É uma moto!")
+    }
+    else {
+        x = prompt("Cabe apenas uma pessoa?(s/n)")
+        if (x==="s"){
+            alert("É um trator!");
+        }
+        else {
+            x = prompt("Tem pedal?");
+            if (x==="s"){
+                alert("É uma bicicleta!")
+            }
+            else {
+                x = prompt("Tem passageiro?");
+                if (x==="s"){
+                    x = prompt("Tem trilho?");
+                    if (x==="s"){
+                        alert("E um trem!");
+                    }
+                    else {
+                        x = prompt("é veículo leve?");
+                        if (x==="s"){
+                        alert("E um carro!") 
+                        }
+                        else {
+                            x = prompt("Tem cobrador?");
+                            if (x==="s"){
+                            alert("E um ônibus")
+                            }
+                            else {
+                                alert("É um caminhão!");
+                            }
+                        }
+                    }
+            }
+        }
+    }
+}
+}
+else {
+    x = prompt("É aéreo?");
+    if (x==="s"){
+        x = prompt("Precisa pular?");
+        if (x==="s"){
+        alert("E uma asa delta!")
+        }
+        else {
+            x = prompt("é devagar?");
+            if (x==="s"){ 
+                alert("É um balão!")
+            }
+            else {
+                x = prompt("Possui asas fixas?");
+                if (x==="s"){
+                    alert("É um avião!")
+                }
+                else {
+                    alert("É um helicóptero!")
+                }
+            }
+        }
+    
+    }
+    else {
+        x = prompt("É aquático?");
+        if (x==="s"){
+            x = prompt("É coberto de água?");
+            if (x==="s"){
+            alert ("É um submarino!")
+            }
+            else {
+                x = prompt("Possui vela?");
+                if (x==="s"){
+                alert("É um barco!")
+                }
+                else{
+                    x = prompt("É alto?");
+                    if (x==="s"){
+                    alert("É um navio!")
+                    }
+                    else {
+                        alert("É uma lancha!");
+                    }
+                }
+            }
+    }
+}
+}
+</script>
