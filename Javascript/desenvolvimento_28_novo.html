@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+
+<script>
+
+function UserException(message) {
+   this.message = message;
+   this.name = "UserException";}
+
+try {
+    var x = parseInt(prompt("Digite o valor do dividendo."))
+    var y = parseInt(prompt("Digite o valor do divisor."))
+    if (y<0) throw new UserException ("Calculo realizado, mas y não pode ser menor que zero");
+
+} catch (error){
+    console.log(error.name);
+    alert(error.message); 
+}
+var z = (x/y)
+document.write("O valor da divisão será: "+z);
+
+</script>   
