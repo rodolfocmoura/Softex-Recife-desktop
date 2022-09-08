@@ -1,0 +1,3 @@
+Ao notar que no mapa da sala havia uma diferença observada
+ao observarmos o anexo 2 e o anexo 3. Onde na linha 5/coluna 5
+a preferência do aluno sentado em tal cadeira muda para português.
