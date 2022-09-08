@@ -1,0 +1,42 @@
+<meta charset="utf-8">
+
+
+<script>
+
+alert("Digite os termos do vetor sendo todos diferentes e entre 0 e 9");
+var a = prompt("A=");
+var b = prompt("B=");
+var c = prompt("C=");
+var d = prompt("D=");
+var e = prompt("E=");
+var f = prompt("F=");
+var g = prompt("G=");
+var h = prompt("H=");
+var i = prompt("I=");
+var j = prompt("J=");
+
+alert("Teremos um vetor "+"( "+a+b+c+d+e+f+g+h+i+j+" )");
+
+function troca (x,y) {
+	if (x>y) {
+		var z = x;
+		var w = y;
+		x= w;
+		y= z;
+
+	}
+}
+
+troca (a,b);
+troca (b,c);
+troca (c,d);
+troca (d,e);
+troca (e,f);
+troca (f,g);
+troca (g,h);
+troca (h,i);
+troca (i,j);
+
+alert("Após ordernar via bubblesort o novo vetor será"+"( "+a+b+c+d+e+f+g+h+i+j+" )");
+
+</script>
