@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+
+<script>
+    class Frutaria {
+        constructor(name, quantidade){
+            this._name = name;
+            this._quantidade = quantidade;
+        
+        }
+        contar()
+        {
+            return `Temos ${this._quantidade} unidades de ${this._name}.<br>`
+        }
+
+
+    }
+
+for(i=0;i<3;i++)
+{
+var fruta = prompt("Diga o nome da fruta "+(i+1));
+var numero = parseInt(prompt("Diga a quantidade delas"))
+let frutaria = new Frutaria(fruta,numero);
+
+document.write(frutaria.contar());
+}
+
+</script>
