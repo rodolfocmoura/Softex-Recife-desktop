@@ -1,0 +1,9 @@
+Exemplo 1:
+
+Cada vértice é um arquivo de um sistema de software.
+Cada arco é uma dependência: um arquivo v é construído a
+partir de todos os arquivos w para os quais existe um arco (v, w). 
+
+Exemplo 2:
+
+Cada vértice é uma página na teia WWW. Cada arco é um link que leva de uma página a outra.

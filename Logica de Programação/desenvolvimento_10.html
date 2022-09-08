@@ -1,0 +1,33 @@
+<meta charset="utf-8">
+
+<script>
+
+	var res = 0;
+
+	function calc (x,y,z) {
+			if (z===2) 
+		{
+				res = (x-y);
+		} 
+		else if (z===1) 
+		{
+				res = (x+y);
+		}  
+		else if(z===3) 
+		{
+				res = (x*y);
+		}  
+		else if (z===4)
+		{
+				res = (x/y);
+		}
+	document.write("O resultado será "+res);
+	}
+
+	var x = parseInt(prompt("Digite o valor do primeiro número da operação"));
+	var y = parseInt(prompt("Digite o valor de segundo número da operação"));
+	var z = parseInt(prompt("Escolha a operação (numeral): 1-Soma 2-Subtração 3-Multiplicação 4-Divisão"));
+	
+	calc(x,y,z);
+
+</script>

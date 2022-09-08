@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+
+
+<script>
+
+	var rodas = parseFloat(prompt("Digite o número de rodas"));
+	var peso = parseFloat(prompt("Digite o peso bruto em quilogramas"));
+	var pessoas = parseFloat(prompt("Digite a quantidade de pessoas"));
+
+	if (rodas<4){
+		document.write("A categoria de habilitação será a A");
+	}
+
+	if (peso>6000){
+		document.write("A categoria de habilitação será a E");
+	}
+
+	if (pessoas>8){
+		document.write("A categoria de habilitação será a D");
+	}
+
+	if (rodas==4){
+		if (peso<=3500){
+			document.write("A categoria de habilitação será a B");
+		}
+	}
+
+	if (peso>3500){
+
+		if (peso<6000){
+			document.write("A categoria de habilitação será a C");
+		}
+	}
+
+</script>
+

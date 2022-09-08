@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+
+<script>
+var check = 1;
+
+while (check===1)
+{
+	var nome = prompt("Digite o nome completo:");
+	var x = parseInt(prompt("Digite o ano de nascimento:"));
+
+	if (x<1922 || (x>2021) || isNaN(x)) 
+	{
+		alert("Erro. Ano informado não válido.");
+		var check = 1;
+	}
+	else
+	{
+		document.write("Nome:"+nome+"<br>Nascido em: "+x)
+		var check = 0;
+	}
+}
+
+</script>

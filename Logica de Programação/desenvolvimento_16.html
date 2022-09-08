@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+
+
+<script>
+
+var comparray = prompt("Digite o comprimento do vetor");
+var array = []; 
+
+for (i=0;i<comparray;i++) {
+	var x = prompt("Digite o valor do elemento");
+	if ((x%2)!==0){
+		array.push(x);
+	}
+}
+
+array.sort();
+
+document.write("O vetor ordenado será ("+array+")");
+
+</script>

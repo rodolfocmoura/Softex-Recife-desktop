@@ -1,0 +1,75 @@
+<meta charset="utf-8">
+
+
+<script>
+
+	for(i=1;i<=25;i++){
+		alert("Alunos da turma A");
+		var nomealunoa = prompt("Nome do aluno=");
+		var notaalunoa = prompt("Nota do aluno=");
+		var somaprova = 0;
+		var alunomaiora = 0;
+		if(notaalunoa>=7){
+			somaaprova = somaprova +1
+		}
+		if (notaalunoa>alunomaiora){
+			alunomaiora=notaalunoa
+		}
+
+	}
+
+	for(i=1;i<=25;i++){
+		alert("Alunos da turma B");
+		var nomealunob = prompt("Nome do aluno=");
+		var notaalunob = prompt("Nota do aluno=");
+		var somaprovb = 0;
+		var alunomaiorb = 0;
+		if(notaalunob>=7){
+			somaaprovb = somaprovb +1
+		}
+		if (notaalunob>alunomaiorb){
+			alunomaiorb=notaalunob
+		}
+
+	}
+
+	for(i=1;i<=25;i++){
+		alert("Alunos da turma C");
+		var nomealunoc = prompt("Nome do aluno=");
+		var notaalunoc = prompt("Nota do aluno=");
+		var somaprovc = 0;
+		var alunomaiorc = 0;
+		if(notaalunoc>=7){
+			somaaprovc = somaprovc +1
+		}
+		if (notaalunoc>alunomaiorc){
+			alunomaiorc=notaalunoc
+		}
+
+	}
+
+	for(i=1;i<=25;i++){
+		alert("Alunos da turma D");
+		var nomealunod = prompt("Nome do aluno=");
+		var notaalunod = prompt("Nota do aluno=");
+		var somaprovd = 0;
+		var alunomaiord = 0;
+		if(notaalunod>=7){
+			somaaprovd = somaprovd +1
+		}
+		if (notaalunod>alunomaiord){
+			alunomaiord=notaalunod
+		}
+
+	}
+
+	var totalaprovados = somaprovd+somaprova+somaprovc+somaprovb;
+	document.write("Total de alunos aprovados= "+totalaprovados);
+	document.write("<br>N° Aprovados turma A= "+somaprova);
+	document.write("<br>N° Aprovados turma B= "+somaprovb');
+	document.write("<br>N° Aprovados turma C= "+somaprovc);
+	document.write("<br>N° Aprovados turma D= "+somaprovd);
+	document.write("<br>Maior nota na turma A= "+alunomaiora);
+	document.write("<br>Maior nota na turma B= "+alunomaiorb);
+	document.write("<br>Maior nota na turma C= "+alunomaiorc);
+	document.write("<br>Maior nota na turma D= "+alunomaiord);

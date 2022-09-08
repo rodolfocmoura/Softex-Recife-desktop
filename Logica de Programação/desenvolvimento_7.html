@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+
+
+<script>
+
+var nome = prompt("Digite o nome do aluno");
+var nota1 = parseFloat(prompt("Digite sua primeira nota"));
+var nota2 =  parseFloat(prompt("Digite sua segunda nota"));
+var faltas = parseFloat(prompt("Digite o número de faltas"));
+
+var media = ((nota1+nota2)/2);
+
+
+if (faltas>=3){
+	document.write("O aluno está reprovado por falta");
+}
+
+if (media<7){
+	document.write("<br>O aluno está reprovado");
+
+}
+
+if(faltas<3){
+	if(media>=7){
+		document.write("O aluno está aprovado.")
+	}
+}
+
+</script>
