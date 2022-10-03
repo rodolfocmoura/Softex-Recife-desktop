@@ -1,0 +1,24 @@
+Criando uma pagina por completp
+
+arquivo html chamando index.html
+
+base:
+
+<header>
+ <h1> ... 
+</header>
+
+corpo da pagina:
+
+<body>
+...
+
+Rodapé:
+<footer>
+
+existem tags para script e tags para estilos (CSS)
+
+bom usar o formato base, para manter organização
+
+tbm bom usar um arquivo hhtml para cada pagina
+
