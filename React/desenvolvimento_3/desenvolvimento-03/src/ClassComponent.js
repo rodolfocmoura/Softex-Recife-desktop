@@ -1,9 +1,27 @@
 import React from 'react';
 
-class ClassComponent extends React.Component {
+class NomeDoComponente extends React.Component {
+
+constructor(props){
+
+super(props)
+
+}
     render() {
-        return <h1> Componente Principal </h1>
+        return(
+        <div>
+        <img src={this.props.imagem}/>
+        <h3> {this.props.titulo}</h3>  
+        <p>{this.props.descricao}</p>
+        </div>
+        )
     }
 }
 
-export default ClassComponent
+export default NomeDoComponente
+
+
+
+
+
+
