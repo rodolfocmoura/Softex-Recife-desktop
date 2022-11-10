@@ -13,6 +13,7 @@ function App() {
 
         <Propriedades props={n} />
         <button onClick={AumentaProps}>Aumentar Props</button>
+  
         
       </header>
     </div>
