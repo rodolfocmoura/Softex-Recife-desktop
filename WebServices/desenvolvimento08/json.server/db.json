@@ -1,0 +1,33 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "João",
+      "idade": 20
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "idade": 25
+    },
+    {
+      "nome": "Rodolfo Moura",
+      "idade": 31,
+      "id": 3
+    }
+  ],
+  "animais": [
+    {
+      "id": 1,
+      "nome": "Bob",
+      "especie": "Cachorro",
+      "dono_id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Garfield",
+      "especie": "Gato",
+      "dono_id": 2
+    }
+  ]
+}
